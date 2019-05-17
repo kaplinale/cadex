@@ -1,0 +1,11 @@
+To build a project type 'make' in current folder
+
+To run executable type './ta 1 2 3 4 5 6' for example.
+
+If you see something like:
+./ta: error while loading shared libraries: libta.so: cannot open shared object file: No such file or directory
+
+please add the project folder to LD_LIBRARY_PATH environmet variable:
+export LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH
+
+To make a test type 'make test' in project folder.
