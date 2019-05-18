@@ -29,6 +29,6 @@ int main(int argc, char **argv)
     sscanf(argv[1], "%lf", &b);
     sscanf(argv[2], "%lf", &h);
     
-    fprintf(stderr, "Area of triange is %3.2lf\n", triangle_area(b,h));
+    printf("%3.1lf", triangle_area(b,h));
     return 0;
 }

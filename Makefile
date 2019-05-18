@@ -17,4 +17,4 @@ test: libs
 	@./mktests.sh
 
 clean:
-	rm *.o *.so $(TARGET) *.mt tests/*.c tests/test*
+	rm *.o *.so $(TARGET) #*.mt tests/*.c tests/test*
